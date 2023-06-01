@@ -1,0 +1,2 @@
+!function(){var e=document.getElementById("categories").getElementsByClassName("item");console.log("Number of categories: ".concat(e.length));var t=!0,o=!1,l=void 0;try{for(var n,r=e[Symbol.iterator]();!(t=(n=r.next()).done);t=!0){var a=n.value,c=a.querySelector("h2").textContent,g=a.querySelectorAll("li").length;console.log("\nCategory: ".concat(c)),console.log("Elements: ".concat(g))}}catch(e){o=!0,l=e}finally{try{t||null==r.return||r.return()}finally{if(o)throw l}}}();
+//# sourceMappingURL=task-01.3b02dc1f.js.map
